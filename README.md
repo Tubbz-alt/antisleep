@@ -13,9 +13,14 @@ The idea of the current project is to perform analysis of dangerous behaviour of
 The code is basically a pipeline that was "constructed" out of other repositories. 
 Clearly, they all shall be cited. 
 
-The driving horse is the paper: "PFLD: A Practical Facial Landmark Detector" and here is the link: https://arxiv.org/abs/1902.10859
+The driving horse is the paper: "PFLD: A Practical Facial Landmark Detector" and here is the link to it: https://arxiv.org/abs/1902.10859
 
-And below is its implementation in PyTorch.
-https://github.com/polarisZhao/PFLD-pytorch
+I used the code from its implementation in PyTorch: https://github.com/polarisZhao/PFLD-pytorch. It contains a trained model, and a code to perfrom inference.
+
+Additionally, I used the `kaggle` code for running a MTCNN model for face detection. The code is taken from here:
+https://www.kaggle.com/timesler/fast-mtcnn-detector-55-fps-at-full-resolution
+
+I adapted the code from both sources to create the pipeline, although the changes are not drastic.
+
 
 
